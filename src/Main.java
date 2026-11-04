@@ -1,4 +1,4 @@
-
+/*
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -12,6 +12,42 @@ class Process {
         this.name = name;
         this.remaningTime = remaningTime;
     }
+}
+class Vehicle1{
+    String carType;
+
+
+    public Vehicle1(){
+        this.carType=carType;
+    }
+
+
+};
+class Car1 extends Vehicle1{
+    String carType;
+    String color ;
+    int carValue=12000;
+    public Car1(String carType, int carValue, String color) {
+        this.carType = carType;
+        this.carValue = carValue;
+        this.color = color;
+    }
+    public Car1(){
+        this.carType=carType;
+    }
+
+    public int value(){
+        if (carType=="sedan"){
+             carValue=15000;
+        }else if (carType=="motorcycle"){
+             carValue=10000;
+        }else if (carType=="hagcback"){
+             carValue=20000;
+        }
+        return carValue;
+    }
+
+
 }
 
 
@@ -28,6 +64,8 @@ public class Main {
 
         Queue<Process> queue = new LinkedList<>();
         Stack<Process> stack = new Stack<>();
+
+        Stack<String> stack1=new Stack<>();
 
         for (int i = 0; i < n; i++) {
             String name = scan.next();
@@ -58,5 +96,9 @@ public class Main {
             }
         }
             scan.close();
+        System.out.println("Please enter the your vehicle");
+        String vehicle1= scan.next();
+        stack1.push(vehicle1);
     }
 }
+*/
