@@ -1,3 +1,4 @@
+/*
 public class Stack<E> {
     protected Stack<E> stack;
     int stackDepth;
@@ -34,3 +35,4 @@ public class Stack<E> {
 
 
 }
+*/
